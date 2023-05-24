@@ -41,9 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Pozadina
+  - name: Background2
+    uniqueID: 2852415245
+    locked: 0
+  - name: Platforms
     uniqueID: 612543671
     locked: 0
-  - name: Objekti
+  - name: Background
     uniqueID: 3442769069
+    locked: 0
+  - name: "\u017Dala_dragulji"
+    uniqueID: 2867333223
     locked: 0
