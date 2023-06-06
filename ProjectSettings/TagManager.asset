@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coins
   layers:
   - Default
   - TransparentFX
@@ -52,4 +53,7 @@ TagManager:
     locked: 0
   - name: Lava
     uniqueID: 2873705461
+    locked: 0
+  - name: Coins
+    uniqueID: 4282830039
     locked: 0
