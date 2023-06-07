@@ -41,9 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Pozadina
+  - name: Background
     uniqueID: 612543671
     locked: 0
-  - name: Objekti
+  - name: River
+    uniqueID: 767279041
+    locked: 0
+  - name: Platforms
     uniqueID: 3442769069
+    locked: 0
+  - name: Background2
+    uniqueID: 3794263371
+    locked: 0
+  - name: "\u017Dele_dragulji"
+    uniqueID: 411501353
     locked: 0
