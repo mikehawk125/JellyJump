@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Items
+  - ColectableItems
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -38,18 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
-  - name: Background2
-    uniqueID: 2852415245
-    locked: 0
-  - name: Platforms
-    uniqueID: 612543671
-    locked: 0
   - name: Background
     uniqueID: 3442769069
     locked: 0
-  - name: "\u017Dala_dragulji"
-    uniqueID: 2867333223
+  - name: Default
+    uniqueID: 0
     locked: 0

@@ -1,0 +1,571 @@
+
+Jelly.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/La-8-back-gray
+  rotate: false
+  xy: 546, 65
+  size: 227, 235
+  orig: 227, 235
+  offset: 0, 0
+  index: -1
+images/La9
+  rotate: false
+  xy: 498, 301
+  size: 227, 178
+  orig: 227, 178
+  offset: 0, 0
+  index: -1
+images/La_14
+  rotate: false
+  xy: 248, 26
+  size: 279, 171
+  orig: 279, 171
+  offset: 0, 0
+  index: -1
+images/La_7
+  rotate: true
+  xy: 601, 507
+  size: 279, 171
+  orig: 279, 171
+  offset: 0, 0
+  index: -1
+images/blue/Body_flower_Blue
+  rotate: false
+  xy: 1, 775
+  size: 249, 248
+  orig: 249, 248
+  offset: 0, 0
+  index: -1
+images/blue/Body_rhombus_Blue
+  rotate: false
+  xy: 251, 538
+  size: 246, 236
+  orig: 246, 236
+  offset: 0, 0
+  index: -1
+images/blue/Body_star_Blue
+  rotate: true
+  xy: 773, 301
+  size: 240, 231
+  orig: 240, 231
+  offset: 0, 0
+  index: -1
+images/blue/Body_triangle_Blue
+  rotate: false
+  xy: 748, 795
+  size: 252, 228
+  orig: 252, 228
+  offset: 0, 0
+  index: -1
+images/blue/Eyelid_bottom_Blue
+  rotate: false
+  xy: 119, 6
+  size: 88, 33
+  orig: 88, 33
+  offset: 0, 0
+  index: -1
+images/blue/Eyelid_top_Blue
+  rotate: false
+  xy: 655, 21
+  size: 84, 43
+  orig: 84, 43
+  offset: 0, 0
+  index: -1
+images/blue/Shadow_Blue
+  rotate: true
+  xy: 498, 480
+  size: 294, 102
+  orig: 298, 102
+  offset: 2, 0
+  index: -1
+images/closed_smile
+  rotate: true
+  xy: 726, 304
+  size: 119, 45
+  orig: 119, 45
+  offset: 0, 0
+  index: -1
+images/evil
+  rotate: false
+  xy: 1, 6
+  size: 117, 33
+  orig: 117, 33
+  offset: 0, 0
+  index: -1
+images/green/Body_flower_Green
+  rotate: false
+  xy: 1, 526
+  size: 249, 248
+  orig: 249, 248
+  offset: 0, 0
+  index: -1
+images/green/Body_rhombus_Green
+  rotate: false
+  xy: 501, 787
+  size: 246, 236
+  orig: 246, 236
+  offset: 0, 0
+  index: -1
+images/green/Body_star_Green
+  rotate: true
+  xy: 774, 59
+  size: 241, 231
+  orig: 241, 231
+  offset: 0, 0
+  index: -1
+images/green/Body_triangle_Green
+  rotate: true
+  xy: 773, 542
+  size: 252, 228
+  orig: 252, 228
+  offset: 0, 0
+  index: -1
+images/green/Eyelid_bottom_Green
+  rotate: false
+  xy: 740, 25
+  size: 88, 33
+  orig: 88, 33
+  offset: 0, 0
+  index: -1
+images/green/Shadow_Green
+  rotate: false
+  xy: 251, 198
+  size: 294, 102
+  orig: 298, 102
+  offset: 2, 0
+  index: -1
+images/mouth_O
+  rotate: true
+  xy: 740, 1
+  size: 23, 25
+  orig: 23, 25
+  offset: 0, 0
+  index: -1
+images/open_smile
+  rotate: false
+  xy: 528, 13
+  size: 126, 51
+  orig: 126, 51
+  offset: 0, 0
+  index: -1
+images/orange/Body_flower_Orange01
+  rotate: false
+  xy: 251, 775
+  size: 249, 248
+  orig: 249, 248
+  offset: 0, 0
+  index: -1
+images/orange/Body_rhombus_Orange01
+  rotate: false
+  xy: 1, 40
+  size: 246, 236
+  orig: 246, 236
+  offset: 0, 0
+  index: -1
+images/orange/Eyelid_bottom_Orange
+  rotate: false
+  xy: 829, 25
+  size: 88, 33
+  orig: 88, 33
+  offset: 0, 0
+  index: -1
+images/purple/Body_flower_Purple
+  rotate: false
+  xy: 1, 277
+  size: 249, 248
+  orig: 249, 248
+  offset: 0, 0
+  index: -1
+images/purple/Body_rhombus_Purple
+  rotate: false
+  xy: 251, 301
+  size: 246, 236
+  orig: 246, 236
+  offset: 0, 0
+  index: -1
+images/purple/Eyelid_bottom_Purple
+  rotate: false
+  xy: 918, 25
+  size: 88, 33
+  orig: 88, 33
+  offset: 0, 0
+  index: -1
+images/z_3
+  rotate: false
+  xy: 726, 424
+  size: 46, 82
+  orig: 46, 82
+  offset: 0, 0
+  index: -1
+
+Jelly2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/La_4
+  rotate: false
+  xy: 483, 442
+  size: 228, 235
+  orig: 228, 235
+  offset: 0, 0
+  index: -1
+images/La_4_back
+  rotate: false
+  xy: 1, 190
+  size: 228, 235
+  orig: 228, 235
+  offset: 0, 0
+  index: -1
+images/La_6
+  rotate: false
+  xy: 230, 34
+  size: 227, 178
+  orig: 227, 178
+  offset: 0, 0
+  index: -1
+images/La_6_back
+  rotate: false
+  xy: 1, 11
+  size: 227, 178
+  orig: 227, 178
+  offset: 0, 0
+  index: -1
+images/La_8
+  rotate: false
+  xy: 230, 213
+  size: 228, 235
+  orig: 228, 235
+  offset: 0, 0
+  index: -1
+images/La_8_back_from
+  rotate: true
+  xy: 528, 795
+  size: 227, 235
+  orig: 227, 235
+  offset: 0, 0
+  index: -1
+images/La_9_back
+  rotate: false
+  xy: 682, 24
+  size: 227, 178
+  orig: 227, 178
+  offset: 0, 0
+  index: -1
+images/blue/Body_circle_Blue
+  rotate: true
+  xy: 459, 2
+  size: 219, 222
+  orig: 219, 222
+  offset: 0, 0
+  index: -1
+images/blue/Body_heart_Blue
+  rotate: false
+  xy: 764, 803
+  size: 254, 219
+  orig: 254, 219
+  offset: 0, 0
+  index: -1
+images/blue/Eye_Blue
+  rotate: true
+  xy: 528, 678
+  size: 116, 118
+  orig: 116, 118
+  offset: 0, 0
+  index: -1
+images/blue/Eye_closed_Blue
+  rotate: false
+  xy: 910, 102
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/blue/Pupil_Blue
+  rotate: false
+  xy: 233, 871
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/green/Body_heart_Green
+  rotate: false
+  xy: 459, 222
+  size: 254, 219
+  orig: 254, 219
+  offset: 0, 0
+  index: -1
+images/green/Eye_Green01
+  rotate: true
+  xy: 647, 678
+  size: 116, 118
+  orig: 116, 118
+  offset: 0, 0
+  index: -1
+images/green/Eye_closed_Green
+  rotate: false
+  xy: 910, 1
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/green/Eyelid_top_Green
+  rotate: true
+  xy: 233, 786
+  size: 84, 43
+  orig: 84, 43
+  offset: 0, 0
+  index: -1
+images/green/Pupil_Green
+  rotate: false
+  xy: 934, 409
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/orange/Body_heart_Orange01
+  rotate: false
+  xy: 712, 458
+  size: 254, 219
+  orig: 254, 219
+  offset: 0, 0
+  index: -1
+images/orange/Body_star_Orange01
+  rotate: true
+  xy: 296, 781
+  size: 241, 231
+  orig: 241, 231
+  offset: 0, 0
+  index: -1
+images/orange/Body_triangle_Orange01
+  rotate: true
+  xy: 1, 426
+  size: 252, 228
+  orig: 252, 228
+  offset: 0, 0
+  index: -1
+images/orange/Eye_Orange
+  rotate: true
+  xy: 766, 686
+  size: 116, 118
+  orig: 116, 118
+  offset: 0, 0
+  index: -1
+images/orange/Eyelid_top_Orange
+  rotate: true
+  xy: 934, 226
+  size: 84, 43
+  orig: 84, 43
+  offset: 0, 0
+  index: -1
+images/orange/Pupil_Orange
+  rotate: false
+  xy: 934, 360
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/orange/Shadow_Orange
+  rotate: false
+  xy: 1, 920
+  size: 294, 102
+  orig: 298, 102
+  offset: 2, 0
+  index: -1
+images/purple/Body_heart_Purple
+  rotate: true
+  xy: 714, 203
+  size: 254, 219
+  orig: 254, 219
+  offset: 0, 0
+  index: -1
+images/purple/Body_star_Purple
+  rotate: true
+  xy: 1, 679
+  size: 240, 231
+  orig: 240, 231
+  offset: 0, 0
+  index: -1
+images/purple/Body_triangle_Purple
+  rotate: false
+  xy: 230, 449
+  size: 252, 228
+  orig: 252, 228
+  offset: 0, 0
+  index: -1
+images/purple/Eye_Purple
+  rotate: true
+  xy: 885, 686
+  size: 116, 118
+  orig: 116, 118
+  offset: 0, 0
+  index: -1
+images/purple/Eyelid_top_Purple
+  rotate: true
+  xy: 978, 226
+  size: 84, 43
+  orig: 84, 43
+  offset: 0, 0
+  index: -1
+images/purple/Pupil_Purple
+  rotate: false
+  xy: 934, 311
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+images/purple/Shadow_Purple
+  rotate: false
+  xy: 233, 678
+  size: 294, 102
+  orig: 298, 102
+  offset: 2, 0
+  index: -1
+
+Jelly3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/La_11
+  rotate: false
+  xy: 281, 643
+  size: 260, 142
+  orig: 260, 142
+  offset: 0, 0
+  index: -1
+images/La_11_back
+  rotate: true
+  xy: 450, 382
+  size: 260, 142
+  orig: 260, 142
+  offset: 0, 0
+  index: -1
+images/La_14_back
+  rotate: false
+  xy: 1, 832
+  size: 279, 171
+  orig: 279, 171
+  offset: 0, 0
+  index: -1
+images/La_5
+  rotate: true
+  xy: 650, 247
+  size: 201, 144
+  orig: 201, 144
+  offset: 0, 0
+  index: -1
+images/La_5_back
+  rotate: false
+  xy: 431, 32
+  size: 201, 145
+  orig: 201, 145
+  offset: 0, 0
+  index: -1
+images/La_7_back
+  rotate: false
+  xy: 1, 660
+  size: 279, 171
+  orig: 279, 171
+  offset: 0, 0
+  index: -1
+images/blue/Body_square_Blue
+  rotate: false
+  xy: 230, 216
+  size: 209, 203
+  orig: 209, 203
+  offset: 0, 0
+  index: -1
+images/blue/Body_trapeze_Blue
+  rotate: false
+  xy: 281, 786
+  size: 228, 217
+  orig: 228, 217
+  offset: 0, 0
+  index: -1
+images/glasses
+  rotate: false
+  xy: 542, 659
+  size: 173, 126
+  orig: 173, 126
+  offset: 0, 0
+  index: -1
+images/green/Body_circle_Green
+  rotate: false
+  xy: 1, 1
+  size: 219, 222
+  orig: 219, 222
+  offset: 0, 0
+  index: -1
+images/green/Body_square_Green
+  rotate: false
+  xy: 221, 12
+  size: 209, 203
+  orig: 209, 203
+  offset: 0, 0
+  index: -1
+images/green/Body_trapeze_Green
+  rotate: false
+  xy: 1, 442
+  size: 228, 217
+  orig: 228, 217
+  offset: 0, 0
+  index: -1
+images/orange/Body_circle_Orange01
+  rotate: true
+  xy: 739, 784
+  size: 219, 222
+  orig: 219, 222
+  offset: 0, 0
+  index: -1
+images/orange/Body_square_Orange01
+  rotate: false
+  xy: 440, 178
+  size: 209, 203
+  orig: 209, 203
+  offset: 0, 0
+  index: -1
+images/orange/Body_trapeze_Orange02
+  rotate: false
+  xy: 510, 786
+  size: 228, 217
+  orig: 228, 217
+  offset: 0, 0
+  index: -1
+images/orange/Eye_closed_Orange
+  rotate: false
+  xy: 716, 683
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+images/purple/Body_circle_Purple
+  rotate: false
+  xy: 230, 420
+  size: 219, 222
+  orig: 219, 222
+  offset: 0, 0
+  index: -1
+images/purple/Body_square_Purple
+  rotate: true
+  xy: 593, 449
+  size: 209, 203
+  orig: 209, 203
+  offset: 0, 0
+  index: -1
+images/purple/Body_trapeze_Purple
+  rotate: false
+  xy: 1, 224
+  size: 228, 217
+  orig: 228, 217
+  offset: 0, 0
+  index: -1
+images/purple/Eye_closed_Purple
+  rotate: false
+  xy: 817, 683
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
