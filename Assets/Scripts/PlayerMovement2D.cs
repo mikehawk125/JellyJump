@@ -4,86 +4,68 @@ using UnityEngine;
 
 public class PlayerMovement2D : MonoBehaviour
 {
-    public float moveSpeed; // player speed
-    public float jumpForce;
-
-    public int jumpsAmount;
-    int jumpsLeft;
-    public Transform GroundCheck; // circle collider
-    public LayerMask GroundLayer;
-
-    bool isGrounded; 
-
-    float moveInput;
-    Rigidbody2D rb2d;
-    float scaleX;
+    private Rigidbody2D rb2D;
+    private float moveSpeed;
+    private float jumpForce;
+    private int jumpCount; // Tracks the number of jumps performed
+    private bool isJumping;
+    private bool isGrounded;
+    private float moveHorizontal;
+    private float moveVertical;
 
     void Start()
     {
-        // on start - fetching player
-        rb2d = GetComponent<Rigidbody2D>();
-        scaleX = transform.localScale.x;
-    }
+        rb2D = gameObject.GetComponent<Rigidbody2D>();
 
+        moveSpeed = 10f;
+        jumpForce = 3f;
+        isJumping = false;
+        isGrounded = true;
+        jumpCount = 0; // Initialize the jump count to 0
+    }
 
     void Update()
     {
-        moveInput = Input.GetAxisRaw("Horizontal");
-        Jump();
-    }
+        moveHorizontal = Input.GetAxisRaw("Horizontal");
+        moveVertical = Input.GetAxisRaw("Vertical");
 
-    private void FixedUpdate()
-    {
-        Move();
-    }
-
-    public void Move()
-    {
-        Flip();
-        rb2d.velocity = new Vector2(moveInput * moveSpeed, rb2d.velocity.y);
-    }
-
-    public void Flip()
-    {
-        // moving to the right
-        if (moveInput > 0)
-        {
-            transform.localScale = new Vector3(scaleX, transform.localScale.y, transform.localScale.z);
-        }
-        // moving to the left
-        if (moveInput < 0)
-        {
-            transform.localScale = new Vector3((-1) * scaleX, transform.localScale.y, transform.localScale.z);
-        }
-    }
-
-    public void Jump()
-    {
-        // check if space tab is hit
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            CheckIfGrounded();
-            if (jumpsLeft > 0)
-            {
-                rb2d.velocity = new Vector2(rb2d.velocity.x, jumpForce);
-                jumpsLeft--; // decreasing jumps
-            }
+            Jump();
         }
     }
 
-    public void CheckIfGrounded()
+    void FixedUpdate()
     {
-        // is grounded when circle collider detect collision
-        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, GroundCheck.GetComponent<CircleCollider2D>().radius, GroundLayer);
-        ResetJumps();
+        if (moveHorizontal > 0.1f || moveHorizontal < -0.1f)
+        {
+            rb2D.AddForce(new Vector2(moveHorizontal * moveSpeed, 0f), ForceMode2D.Impulse);
+        }
     }
 
-    public void ResetJumps()
+    void Jump()
     {
-        // when hits the ground, number of jumps reset
-        if (isGrounded)
+        if (isGrounded || jumpCount < 2) // Allow jumping if on the ground or fewer than 2 jumps performed
         {
-            jumpsLeft = jumpsAmount;
+            rb2D.AddForce(new Vector2(0f, jumpForce * moveSpeed), ForceMode2D.Impulse);
+            jumpCount++;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+            jumpCount = 0; // Reset the jump count when touching the ground
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = false;
         }
     }
 }

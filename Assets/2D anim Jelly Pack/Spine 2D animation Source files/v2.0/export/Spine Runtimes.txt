@@ -1,0 +1,10 @@
+Spine Runtimes
+
+The Spine Runtimes are libraries that allow your game toolkit to load and render animations in your games, just as they do in Spine. Our APIs provide direct access to bones, attachments, skins and other animation data. Bones can be manipulated procedurally, animations can be combined, crossfaded and more.
+
+The official runtimes are available on GitHub and licensing Spine grants permission to use the runtimes in your applications. All of the source code is provided, which is essential for such a fundamental component of your games.
+
+If you are evaluating the runtimes prior to licensing Spine, the Spine Trial comes with many example projects which include exported example data. These exports can be used to evaluate the runtimes from start to finish.
+
+
+http://ru.esotericsoftware.com/spine-runtimes
