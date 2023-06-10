@@ -39,21 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 612543671
     locked: 0
-  - name: Platforms
-    uniqueID: 3442769069
-    locked: 0
-  - name: Background2
-    uniqueID: 2492797349
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Lava
     uniqueID: 2873705461
-    locked: 0
-  - name: Coins
-    uniqueID: 4282830039
     locked: 0
