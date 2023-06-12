@@ -16,7 +16,7 @@ public class VolumeSaveController : MonoBehaviour
     public void VolumeSlider(float volume)
     {
         float percentage = volume * 100f;
-        volumeTextUI.text = percentage.ToString("0") + "%";
+        volumeTextUI.text = Mathf.Round(percentage).ToString("0") + "%";
     }
 
     public void SaveVolumeButton()
@@ -26,9 +26,11 @@ public class VolumeSaveController : MonoBehaviour
         LoadValues();
     }
 
-    void LoadValues(){
-        float volumeValue = PlayerPrefs.GetFloat("VolumeValue");
+    private void LoadValues()
+    {
+        float volumeValue = PlayerPrefs.GetFloat("VolumeValue", 0.50f); // Use 0.5f as the default value if not found
         volumeSlider.value = volumeValue;
         AudioListener.volume = volumeValue;
+        VolumeSlider(volumeValue);
     }
 }
