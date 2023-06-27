@@ -20894,7 +20894,7 @@ GameObject:
   - component: {fileID: 1716365007}
   m_Layer: 0
   m_Name: "\u017Eele_dragulji"
-  m_TagString: Untagged
+  m_TagString: ColectableItems
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

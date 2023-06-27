@@ -967,7 +967,7 @@ GameObject:
   - component: {fileID: 52648693}
   m_Layer: 0
   m_Name: coin1 (7)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1436,7 +1436,7 @@ GameObject:
   - component: {fileID: 116469947}
   m_Layer: 0
   m_Name: coin1 (40)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1737,7 +1737,7 @@ GameObject:
   - component: {fileID: 148188401}
   m_Layer: 0
   m_Name: coin1 (34)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2676,7 +2676,7 @@ GameObject:
   - component: {fileID: 222695056}
   m_Layer: 0
   m_Name: coin1 (10)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3313,7 +3313,7 @@ GameObject:
   - component: {fileID: 288792074}
   m_Layer: 0
   m_Name: coin1 (38)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3698,7 +3698,7 @@ GameObject:
   - component: {fileID: 314908584}
   m_Layer: 0
   m_Name: coin1 (37)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4483,7 +4483,7 @@ GameObject:
   - component: {fileID: 392011820}
   m_Layer: 0
   m_Name: coin1 (11)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4616,7 +4616,7 @@ GameObject:
   - component: {fileID: 392493982}
   m_Layer: 0
   m_Name: coin1 (39)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5642,7 +5642,7 @@ GameObject:
   - component: {fileID: 499024321}
   m_Layer: 0
   m_Name: coin1 (36)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6747,7 +6747,7 @@ GameObject:
   - component: {fileID: 576650774}
   m_Layer: 0
   m_Name: coin1 (9)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7132,7 +7132,7 @@ GameObject:
   - component: {fileID: 614543668}
   m_Layer: 0
   m_Name: coin1 (3)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7481,7 +7481,7 @@ GameObject:
   - component: {fileID: 623072033}
   m_Layer: 0
   m_Name: coin1 (24)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8307,7 +8307,7 @@ GameObject:
   - component: {fileID: 679540454}
   m_Layer: 0
   m_Name: coin1 (13)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10048,7 +10048,7 @@ GameObject:
   - component: {fileID: 766914961}
   m_Layer: 0
   m_Name: coin1 (35)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10265,7 +10265,7 @@ GameObject:
   - component: {fileID: 786344903}
   m_Layer: 0
   m_Name: coin1 (12)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10398,7 +10398,7 @@ GameObject:
   - component: {fileID: 787280492}
   m_Layer: 0
   m_Name: coin1 (1)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10951,7 +10951,7 @@ GameObject:
   - component: {fileID: 844573310}
   m_Layer: 0
   m_Name: coin1 (33)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12215,7 +12215,7 @@ GameObject:
   - component: {fileID: 923981208}
   m_Layer: 0
   m_Name: coin1 (25)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13425,7 +13425,7 @@ GameObject:
   - component: {fileID: 1028391084}
   m_Layer: 0
   m_Name: coin1 (4)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13558,7 +13558,7 @@ GameObject:
   - component: {fileID: 1042781272}
   m_Layer: 0
   m_Name: coin1 (19)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13691,7 +13691,7 @@ GameObject:
   - component: {fileID: 1051465321}
   m_Layer: 0
   m_Name: coin1 (6)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13908,7 +13908,7 @@ GameObject:
   - component: {fileID: 1065281476}
   m_Layer: 0
   m_Name: coin1 (23)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14377,7 +14377,7 @@ GameObject:
   - component: {fileID: 1123751840}
   m_Layer: 0
   m_Name: coin1 (27)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15556,7 +15556,7 @@ GameObject:
   - component: {fileID: 1194040905}
   m_Layer: 0
   m_Name: coin1 (31)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15941,7 +15941,7 @@ GameObject:
   - component: {fileID: 1227564089}
   m_Layer: 0
   m_Name: coin1 (21)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16627,7 +16627,7 @@ GameObject:
   - component: {fileID: 1265253732}
   m_Layer: 0
   m_Name: coin1 (14)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18914,7 +18914,7 @@ GameObject:
   - component: {fileID: 1426750429}
   m_Layer: 0
   m_Name: coin1 (42)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19803,7 +19803,7 @@ GameObject:
   - component: {fileID: 1505321802}
   m_Layer: 0
   m_Name: coin1 (28)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19936,7 +19936,7 @@ GameObject:
   - component: {fileID: 1512778621}
   m_Layer: 0
   m_Name: coin1 (41)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20237,7 +20237,7 @@ GameObject:
   - component: {fileID: 1517911974}
   m_Layer: 0
   m_Name: coin1 (43)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20859,7 +20859,7 @@ GameObject:
   - component: {fileID: 1536026354}
   m_Layer: 0
   m_Name: coin1 (32)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22093,7 +22093,7 @@ GameObject:
   - component: {fileID: 1641044786}
   m_Layer: 0
   m_Name: coin1 (17)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23038,7 +23038,7 @@ GameObject:
   - component: {fileID: 1699564646}
   m_Layer: 0
   m_Name: "\u017Dele_dragulji"
-  m_TagString: Untagged
+  m_TagString: ColectableItems
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23285,7 +23285,7 @@ GameObject:
   - component: {fileID: 1723359259}
   m_Layer: 0
   m_Name: coin1 (30)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23418,7 +23418,7 @@ GameObject:
   - component: {fileID: 1734745970}
   m_Layer: 0
   m_Name: coin1 (26)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23719,7 +23719,7 @@ GameObject:
   - component: {fileID: 1748300484}
   m_Layer: 0
   m_Name: coin1 (22)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23852,7 +23852,7 @@ GameObject:
   - component: {fileID: 1760988675}
   m_Layer: 0
   m_Name: coin1 (44)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24716,7 +24716,7 @@ GameObject:
   - component: {fileID: 1800925690}
   m_Layer: 0
   m_Name: coin1 (5)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24933,7 +24933,7 @@ GameObject:
   - component: {fileID: 1813685266}
   m_Layer: 0
   m_Name: coin1 (15)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25318,7 +25318,7 @@ GameObject:
   - component: {fileID: 1832366714}
   m_Layer: 0
   m_Name: coin1 (29)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25451,7 +25451,7 @@ GameObject:
   - component: {fileID: 1855785139}
   m_Layer: 0
   m_Name: coin1 (16)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26285,7 +26285,7 @@ GameObject:
   - component: {fileID: 1900729268}
   m_Layer: 0
   m_Name: coin1 (18)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26777,7 +26777,7 @@ GameObject:
   - component: {fileID: 1945697871}
   m_Layer: 0
   m_Name: coin1
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26994,7 +26994,7 @@ GameObject:
   - component: {fileID: 1982803368}
   m_Layer: 0
   m_Name: coin1 (20)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28377,7 +28377,7 @@ GameObject:
   - component: {fileID: 2038819099}
   m_Layer: 0
   m_Name: coin1 (8)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28594,7 +28594,7 @@ GameObject:
   - component: {fileID: 2053113073}
   m_Layer: 0
   m_Name: coin1 (2)
-  m_TagString: Untagged
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
