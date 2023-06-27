@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour {
 
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+    public PlayerMovement2D player;
 
     public Animator animator;
 
@@ -37,6 +38,7 @@ public class DialogueManager : MonoBehaviour {
         if (sentences.Count == 0)
         {
             EndDialogue();
+            player.enabled = true;
             return;
         }
         string sentence = sentences.Dequeue();
