@@ -43,14 +43,14 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
     }
 
-    public void GoToMainMenu()
+    public void GoToMapMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("Map");
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+        SceneManager.LoadScene("Menu");
     }
 }

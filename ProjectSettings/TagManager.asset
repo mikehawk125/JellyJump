@@ -7,6 +7,10 @@ TagManager:
   - Items
   - ColectableItems
   - Ground
+  - Lava
+  - Chocolate
+  - Floor
+  - River
   layers:
   - Default
   - TransparentFX
