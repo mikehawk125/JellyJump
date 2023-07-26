@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameWin : MonoBehaviour
 {
     public GameObject winMenu;
+    public static bool isPaused;
 
     void Start()
     {
@@ -22,5 +23,15 @@ public class GameWin : MonoBehaviour
     public void QuitGame()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            Time.timeScale = 0f; // stops animations and updates
+            isPaused = true;
+            winMenu.SetActive(true);
+        }
     }
 }

@@ -11,6 +11,7 @@ TagManager:
   - Chocolate
   - Floor
   - River
+  - end
   layers:
   - Default
   - TransparentFX

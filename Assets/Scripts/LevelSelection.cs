@@ -10,13 +10,13 @@ public class LevelSelection : MonoBehaviour
 
     void Start()
     {
-        // first level at build index 2
-        int levelAt = PlayerPrefs.GetInt("levelAt", 2);
+        // first level at build index 3
+        int levelAt = PlayerPrefs.GetInt("levelAt", 3);
 
         for (int i = 0; i < levelButtons.Length; i++)
         {
             // non interactable levels 2 and higher
-            if (i + 2 > levelAt)
+            if (i + 3 > levelAt)
                 levelButtons[i].interactable = false;
         }
     }
