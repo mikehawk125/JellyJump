@@ -6,6 +6,10 @@ public class DecreasingHeartScript : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D col)
     {
-         GameControlScript.health -= 1;
+        Debug.Log(col.name);
+        if (col.gameObject.CompareTag("Player")) {
+            GameControlScript.health -= 1;
+            Debug.Log(col.name);        
+        }
     }
 }

@@ -16,7 +16,8 @@ public class GameOverMenu : MonoBehaviour
     {
         // opposite from PauseGame
         gameOverMenu.SetActive(false); // pauseMenu invisible when pressed Resume
-        SceneManager.LoadScene("Map");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void QuitGame()

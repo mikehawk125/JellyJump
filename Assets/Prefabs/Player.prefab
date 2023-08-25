@@ -2105,6 +2105,7 @@ GameObject:
   - component: {fileID: 8260440224173377857}
   - component: {fileID: 8260440224173377912}
   - component: {fileID: 8260440224173377917}
+  - component: {fileID: 567341358878689066}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2208,7 +2209,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2240,6 +2241,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 0}
+--- !u!114 &567341358878689066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8260440224173283363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8affe3b067a334f9ed5a7c57b8ff70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8260440224173287841
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,7 +32,7 @@ public class VignetteController : MonoBehaviour
 
         intensity = Mathf.MoveTowards(intensity, maxIntensity, intensityDelta);
 
-        Debug.Log($"Distance: {distance}, Normalized Distance: {normalizedDistance}, Intensity: {intensity}");
+        // Debug.Log($"Distance: {distance}, Normalized Distance: {normalizedDistance}, Intensity: {intensity}"); 
 
         vignette.intensity.Override(intensity);
 
