@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameControlScript : MonoBehaviour
 {
     public GameObject heart1, heart2, heart3, gameOver;
+    public AudioSource gameOverSound;
     public static int health;
     bool isDead = false;
 
@@ -47,6 +48,14 @@ public class GameControlScript : MonoBehaviour
                     heart3.SetActive(false);
                     gameOver.SetActive(true);
                     Time.timeScale = 0;
+                    AudioSource[] allAudioSources = FindObjectsOfType<AudioSource>();
+                    foreach (AudioSource audioSource in allAudioSources)
+                    {
+                        audioSource.Stop();
+                    }
+
+                    gameOverSound.Play();
+
                     break;
             }
         }
