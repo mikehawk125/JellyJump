@@ -5,9 +5,9 @@ using UnityEngine;
 public class GameControlScript : MonoBehaviour
 {
     public GameObject heart1, heart2, heart3, gameOver;
-    public AudioSource gameOverSound;
     public static int health;
     bool isDead = false;
+    bool hasPlayedLoseLifeSound = false; // Track if the lose life sound has been played
 
     void Start()
     {
@@ -31,16 +31,33 @@ public class GameControlScript : MonoBehaviour
                     heart2.SetActive(true);
                     heart3.SetActive(true);
                     break;
+
                 case 2:
                     heart1.SetActive(true);
                     heart2.SetActive(true);
                     heart3.SetActive(false);
+
+                    if (!hasPlayedLoseLifeSound) // Play the sound only once
+                    {
+                        Debug.Log("Playing Lose Life Sound");
+                        AudioManager.Instance.PlaySFX("Life Lost SFX");
+                        hasPlayedLoseLifeSound = true; // Set flag as true 
+                    }
                     break;
+
                 case 1:
                     heart1.SetActive(true);
                     heart2.SetActive(false);
                     heart3.SetActive(false);
+
+                    if (!hasPlayedLoseLifeSound) // Play the sound only once
+                    {
+                        Debug.Log("Playing Lose Life Sound");
+                        AudioManager.Instance.PlaySFX("Life Lost SFX");
+                        hasPlayedLoseLifeSound = true; // Set flag as true 
+                    }
                     break;
+
                 default:
                     isDead = true;
                     heart1.SetActive(false);
@@ -54,8 +71,7 @@ public class GameControlScript : MonoBehaviour
                         audioSource.Stop();
                     }
 
-                    gameOverSound.Play();
-
+                    AudioManager.Instance.PlaySFX("Game Over SFX");
                     break;
             }
         }

@@ -8,9 +8,13 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenu;
     public static bool isPaused;
 
+    // Reference to all audio sources in the scene
+    private AudioSource[] allAudioSources;
+
     void Start()
     {
         pauseMenu.SetActive(false); // invisible when playing game
+        allAudioSources = FindObjectsOfType<AudioSource>(); // Get all audio sources in the scene
     }
 
     void Update()
@@ -32,6 +36,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseMenu.SetActive(true); // pauseMenu visible when pressed Pause
         Time.timeScale = 0f; // stops animations and updates
+        PauseAudio();
         isPaused = true;
     }
 
@@ -40,6 +45,7 @@ public class PauseMenu : MonoBehaviour
         // opposite from PauseGame
         pauseMenu.SetActive(false); // pauseMenu invisible when pressed Resume
         Time.timeScale = 1f; // starts animations and updates
+        ResumeAudio();
         isPaused = false;
     }
 
@@ -52,5 +58,21 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    private void PauseAudio()
+    {
+        foreach (AudioSource audioSource in allAudioSources)
+        {
+            audioSource.Pause();
+        }
+    }
+
+    private void ResumeAudio()
+    {
+        foreach (AudioSource audioSource in allAudioSources)
+        {
+            audioSource.UnPause();
+        }
     }
 }

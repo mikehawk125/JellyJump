@@ -12,7 +12,6 @@ public class PlayerMovement2D : MonoBehaviour
     private bool isGrounded;
     private float moveHorizontal;
     private float moveVertical;
-    public AudioSource jumpSound;
 
     void Start()
     {
@@ -50,7 +49,7 @@ public class PlayerMovement2D : MonoBehaviour
         {
             rb2D.AddForce(new Vector2(0f, jumpForce * moveSpeed), ForceMode2D.Impulse);
             jumpCount++;
-            jumpSound.Play();
+            AudioManager.Instance.PlaySFX("Jump SFX");
         }
     }
 

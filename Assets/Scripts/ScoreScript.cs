@@ -8,7 +8,6 @@ public class ScoreScript : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI ScoreText;
     private int ScoreNumber;
-    public AudioSource gemCollectSound; // Assign your sound player GameObject with AudioSource here
 
     void Start()
     {
@@ -23,15 +22,8 @@ public class ScoreScript : MonoBehaviour
         {
             ScoreNumber++;
             Destroy(colItems.gameObject);
-            PlayGemCollectSound();
+            AudioManager.Instance.PlaySFX("Gem Collection SFX");
             ScoreText.text = "Score: " + ScoreNumber.ToString();
-        }
-    }
-    private void PlayGemCollectSound()
-    {
-        if (gemCollectSound != null)
-        {
-            gemCollectSound.Play();
         }
     }
 }
