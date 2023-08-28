@@ -1,12 +1,15 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using TMPro;
 
 public class VolumeSettings : MonoBehaviour
 {
     [SerializeField] private AudioMixer myMixer;
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider SFXSlider;
+    [SerializeField] private TextMeshProUGUI musicVolumeText;
+    [SerializeField] private TextMeshProUGUI SFXVolumeText;
 
     private void Start()
     {
@@ -27,6 +30,11 @@ public class VolumeSettings : MonoBehaviour
         float volume = musicSlider.value;
         myMixer.SetFloat("music", Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat("musicVolume", volume);
+
+        if (musicVolumeText != null)
+        {
+            musicVolumeText.text = Mathf.RoundToInt(volume * 100).ToString();
+        }
     }
 
     public void SetSFXVolume()
@@ -34,6 +42,11 @@ public class VolumeSettings : MonoBehaviour
         float volume = SFXSlider.value;
         myMixer.SetFloat("SFX", Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat("SFXVolume", volume);
+
+        if (SFXVolumeText != null)
+        {
+            SFXVolumeText.text = Mathf.RoundToInt(volume * 100).ToString();
+        }
     }
 
     private void LoadVolume()
@@ -45,3 +58,4 @@ public class VolumeSettings : MonoBehaviour
         SetSFXVolume();
     }
 }
+
