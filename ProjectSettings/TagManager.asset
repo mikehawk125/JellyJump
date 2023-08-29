@@ -12,6 +12,7 @@ TagManager:
   - Floor
   - River
   - end
+  - Enemy
   layers:
   - Default
   - TransparentFX
