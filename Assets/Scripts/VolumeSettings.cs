@@ -13,23 +13,14 @@ public class VolumeSettings : MonoBehaviour
 
     private void Start()
     {
-        if (PlayerPrefs.HasKey("musicVolume"))
-        {
-            LoadVolume();
-        }
-        else
-        {
-            SetMusicVolume();
-            SetSFXVolume();
-        }
-        SetMusicVolume();
+        LoadVolume();
     }
 
     public void SetMusicVolume()
     {
+        Debug.Log(musicSlider.value);
         float volume = musicSlider.value;
         myMixer.SetFloat("music", Mathf.Log10(volume) * 20);
-        PlayerPrefs.SetFloat("musicVolume", volume);
 
         if (musicVolumeText != null)
         {
@@ -41,7 +32,6 @@ public class VolumeSettings : MonoBehaviour
     {
         float volume = SFXSlider.value;
         myMixer.SetFloat("SFX", Mathf.Log10(volume) * 20);
-        PlayerPrefs.SetFloat("SFXVolume", volume);
 
         if (SFXVolumeText != null)
         {
@@ -51,11 +41,7 @@ public class VolumeSettings : MonoBehaviour
 
     private void LoadVolume()
     {
-        musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
-        SFXSlider.value = PlayerPrefs.GetFloat("SFXVolume");
-
         SetMusicVolume();
         SetSFXVolume();
     }
 }
-

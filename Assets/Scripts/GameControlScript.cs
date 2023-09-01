@@ -7,7 +7,7 @@ public class GameControlScript : MonoBehaviour
     public GameObject heart1, heart2, heart3, gameOver;
     public static int health;
     bool isDead = false;
-    bool hasPlayedLoseLifeSound = false; // Track if the lose life sound has been played
+    bool hasPlayedLoseLifeSound = false;
 
     void Start()
     {
