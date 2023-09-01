@@ -6,15 +6,15 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject optionsMenuPrefab;
     public static bool isPaused;
 
-    // Reference to all audio sources in the scene
     private AudioSource[] allAudioSources;
 
     void Start()
     {
-        pauseMenu.SetActive(false); // invisible when playing game
-        allAudioSources = FindObjectsOfType<AudioSource>(); // Get all audio sources in the scene
+        pauseMenu.SetActive(false);
+        allAudioSources = FindObjectsOfType<AudioSource>();
     }
 
     void Update()
@@ -34,19 +34,25 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
-        pauseMenu.SetActive(true); // pauseMenu visible when pressed Pause
-        Time.timeScale = 0f; // stops animations and updates
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0f;
         PauseAudio();
         isPaused = true;
     }
 
     public void ResumeGame()
     {
-        // opposite from PauseGame
-        pauseMenu.SetActive(false); // pauseMenu invisible when pressed Resume
-        Time.timeScale = 1f; // starts animations and updates
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1f;
         ResumeAudio();
         isPaused = false;
+    }
+
+    public void OpenOptions()
+    {
+        // Instantiate the Options menu prefab
+        GameObject optionsMenu = Instantiate(optionsMenuPrefab);
+        optionsMenu.SetActive(true);
     }
 
     public void GoToMapMenu()
