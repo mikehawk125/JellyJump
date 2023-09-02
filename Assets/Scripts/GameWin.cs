@@ -16,11 +16,10 @@ public class GameWin : MonoBehaviour
         allAudioSources = FindObjectsOfType<AudioSource>(); // Get all audio sources in the scene
     }
 
-    public void ContinueGame()
+    public void Continue()
     {
-        // Opposite from PauseGame
-        winMenu.SetActive(false); // Menu invisible when pressed Continue
         SceneManager.LoadScene("Map");
+        UnlockNewLevel();
     }
 
     public void QuitGame()
@@ -32,6 +31,8 @@ public class GameWin : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            UnlockNewLevel();
+
             Time.timeScale = 0f; // Stop animations and updates
 
             StopAllAudio(); // Stop all audio sources
@@ -47,4 +48,29 @@ public class GameWin : MonoBehaviour
             audioSource.Stop(); // Stop each audio source
         }
     }
+
+    void UnlockNewLevel()
+    {
+        int currentSceneBuildIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // Increment the reached index to unlock the next level.
+        int reachedIndex = PlayerPrefs.GetInt("ReachedIndex", 0);
+        reachedIndex++;
+
+        // Save the reached index.
+        PlayerPrefs.SetInt("ReachedIndex", reachedIndex);
+
+        // Increment the unlocked level if it's less than the reached index.
+        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+        if (unlockedLevel < reachedIndex)
+        {
+            unlockedLevel++;
+            PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel);
+        }
+
+        // Save PlayerPrefs changes.
+        PlayerPrefs.Save();
+    }
+
+
 }

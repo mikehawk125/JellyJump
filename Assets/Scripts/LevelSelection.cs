@@ -1,23 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LevelSelection : MonoBehaviour
 {
-    // array for levels (total 6)
-    public Button[] levelButtons;
+    public Button[] buttons;
 
-    void Start()
+    private void Awake()
     {
-        // first level at build index 3
-        int levelAt = PlayerPrefs.GetInt("levelAt", 3);
+        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
 
-        for (int i = 0; i < levelButtons.Length; i++)
+        for (int i = 0; i < buttons.Length; i++)
         {
-            // non interactable levels 2 and higher
-            if (i + 3 > levelAt)
-                levelButtons[i].interactable = false;
+            buttons[i].interactable = false;
         }
+
+        for (int i = 0; i < unlockedLevel; i++)
+        {
+            buttons[i].interactable = true;
+        }
+    }
+
+
+
+    public void OpenLevel(int levelId)
+    {
+        string levelName = "Level" + levelId;
+        SceneManager.LoadScene(levelName);
     }
 }

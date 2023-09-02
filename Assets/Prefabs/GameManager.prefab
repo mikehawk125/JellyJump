@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1422902414321221622}
   - component: {fileID: 1422902414321221620}
   - component: {fileID: 2820534715489850766}
-  - component: {fileID: 2285768877400293309}
+  - component: {fileID: 7781616892351909551}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 368414982658599740, guid: ab4256c0eacf16346b1acba7286be151, type: 3}
-  optionsMenuPrefab: {fileID: 0}
+  optionsMenuPrefab: {fileID: 3699709250032267383, guid: 1a7c56dedc4e6fc48aaa57e0986f24f1, type: 3}
 --- !u!114 &1422902414321221620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverMenu: {fileID: 1507528801438341938, guid: a542d9487c46cd94287ba582b50d8390, type: 3}
   scoreHealthCanvas: {fileID: 5154633098205656164, guid: 706480b8abbe0444b86d01a334a86f05, type: 3}
---- !u!114 &2285768877400293309
+--- !u!114 &7781616892351909551
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
