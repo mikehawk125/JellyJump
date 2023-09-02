@@ -30,7 +30,7 @@ public class PlayerMovement2D : MonoBehaviour
         moveHorizontal = Input.GetAxisRaw("Horizontal");
         moveVertical = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.Space) && canMove)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
         }
@@ -38,7 +38,7 @@ public class PlayerMovement2D : MonoBehaviour
 
     void FixedUpdate()
     {
-        if ((moveHorizontal > 0.1f || moveHorizontal < -0.1f) && canMove)
+        if ((moveHorizontal > 0.1f || moveHorizontal < -0.1f))
         {
             rb2D.AddForce(new Vector2(moveHorizontal * moveSpeed, 0f), ForceMode2D.Impulse);
         }
