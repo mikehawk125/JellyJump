@@ -124,4 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c8e12fc67c9c8c40a46d26bce1bf9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winMenu: {fileID: 0}
+  winMenu: {fileID: 2502116104146084958, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+  scoreHealthCanvas: {fileID: 5154633098205656164, guid: 706480b8abbe0444b86d01a334a86f05, type: 3}

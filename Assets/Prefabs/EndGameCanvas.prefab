@@ -507,6 +507,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6999225880963397151, guid: 7907c101e7ea8bd43b489b088639d9b4, type: 3}
+        m_TargetAssemblyTypeName: GameWin, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2502116105308851870
 GameObject:
   m_ObjectHideFlags: 0

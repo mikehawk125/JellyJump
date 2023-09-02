@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameWin : MonoBehaviour
 {
     public GameObject winMenu;
+    public GameObject scoreHealthCanvas; // Reference to the score_health canvas
 
     // Reference to all audio sources in the scene
     private AudioSource[] allAudioSources;
@@ -37,6 +38,7 @@ public class GameWin : MonoBehaviour
 
             StopAllAudio(); // Stop all audio sources
             AudioManager.Instance.PlaySFX("Game Win SFX");
+            scoreHealthCanvas.SetActive(false);
             winMenu.SetActive(true); // Show the win menu
         }
     }

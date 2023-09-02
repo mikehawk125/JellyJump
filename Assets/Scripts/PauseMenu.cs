@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
-    public GameObject optionsMenuPrefab;
     public static bool isPaused;
 
     private AudioSource[] allAudioSources;
@@ -46,13 +45,6 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         ResumeAudio();
         isPaused = false;
-    }
-
-    public void OpenOptions()
-    {
-        // Instantiate the Options menu prefab
-        GameObject optionsMenu = Instantiate(optionsMenuPrefab);
-        optionsMenu.SetActive(true);
     }
 
     public void GoToMapMenu()

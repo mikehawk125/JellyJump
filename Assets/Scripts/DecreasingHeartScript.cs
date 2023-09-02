@@ -5,11 +5,10 @@ using UnityEngine;
 public class DecreasingHeartScript : MonoBehaviour
 {
     bool canTakeDamage = true;
-    float delay = 1.5f;
+    float delay = 2f;
 
     void OnTriggerStay2D(Collider2D col)
     {
-        Debug.Log(col.name);
         if (col.gameObject.CompareTag("Player") && canTakeDamage) {
             GameControlScript.health -= 1;
             StartCoroutine(delayDamage());
