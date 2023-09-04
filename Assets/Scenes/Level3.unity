@@ -9545,6 +9545,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8185596504531788166, guid: bd748bd8473cd564d9afd57945a15651, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185596504531788166, guid: bd748bd8473cd564d9afd57945a15651, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185596504531788166, guid: bd748bd8473cd564d9afd57945a15651, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -9552,6 +9560,10 @@ PrefabInstance:
       propertyPath: playerTransform
       value: 
       objectReference: {fileID: 1454675563}
+    - target: {fileID: 9083859179106346355, guid: bd748bd8473cd564d9afd57945a15651, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd748bd8473cd564d9afd57945a15651, type: 3}
 --- !u!1 &668895334

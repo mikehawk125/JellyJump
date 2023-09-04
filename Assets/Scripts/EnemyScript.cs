@@ -11,6 +11,8 @@ public class EnemyScript : MonoBehaviour
     RaycastHit2D hitFacing;
     RaycastHit2D hitDown;
 
+    // public bool canFall = false; 
+
     public Transform checkPOS;
 
     private void Start()
@@ -28,7 +30,7 @@ public class EnemyScript : MonoBehaviour
         hitFacing = Physics2D.Raycast(downStartPos, isFacingRight ? Vector2.right : Vector2.left, 2f, _groundLayer);
         hitDown = Physics2D.Raycast(downStartPos, Vector2.down, 2f, _groundLayer);
 
-        if (hitFacing || !hitDown)
+        if (hitFacing || (!hitDown /*&& !canFall*/ ))
             Flip();
     }
 
