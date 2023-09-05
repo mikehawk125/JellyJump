@@ -8,6 +8,7 @@ public class GameControlScript : MonoBehaviour
     public static int health;
     bool isDead = false;
     bool hasPlayedLoseLifeSound = false;
+    bool hasPlayedLoseLifeSound2 = false;
 
     void Start()
     {
@@ -50,11 +51,11 @@ public class GameControlScript : MonoBehaviour
                     heart2.SetActive(false);
                     heart3.SetActive(false);
 
-                    if (!hasPlayedLoseLifeSound) // Play the sound only once
+                    if (!hasPlayedLoseLifeSound2) // Play the sound only once
                     {
                         Debug.Log("Playing Lose Life Sound");
                         AudioManager.Instance.PlaySFX("Life Lost SFX");
-                        hasPlayedLoseLifeSound = true; // Set flag as true 
+                        hasPlayedLoseLifeSound2 = true; // Set flag as true 
                     }
                     break;
 
