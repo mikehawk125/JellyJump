@@ -14,16 +14,16 @@ public class LevelSelection : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
-            buttons[i].interactable = false;
-        }
-
-        for (int i = 0; i < unlockedLevel; i++)
-        {
-            buttons[i].interactable = true;
+            if (i < unlockedLevel)
+            {
+                buttons[i].interactable = true;
+            }
+            else
+            {
+                buttons[i].interactable = false;
+            }
         }
     }
-
-
 
     public void OpenLevel(int levelId)
     {

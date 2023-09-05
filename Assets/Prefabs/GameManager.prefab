@@ -48,7 +48,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 368414982658599740, guid: ab4256c0eacf16346b1acba7286be151, type: 3}
-  optionsMenuPrefab: {fileID: 3699709250032267383, guid: 1a7c56dedc4e6fc48aaa57e0986f24f1, type: 3}
 --- !u!114 &1422902414321221620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,3 +91,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winMenu: {fileID: 2502116104146084958, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+  scoreHealthCanvas: {fileID: 5154633098205656164, guid: 706480b8abbe0444b86d01a334a86f05, type: 3}

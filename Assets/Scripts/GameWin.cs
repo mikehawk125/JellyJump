@@ -29,7 +29,7 @@ public class GameWin : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {
+    { 
         if (other.gameObject.tag == "Player")
         {
             UnlockNewLevel();
@@ -39,7 +39,9 @@ public class GameWin : MonoBehaviour
             StopAllAudio(); // Stop all audio sources
             AudioManager.Instance.PlaySFX("Game Win SFX");
             scoreHealthCanvas.SetActive(false);
-            winMenu.SetActive(true); // Show the win menu
+            winMenu.SetActive(true);
+
+            GetComponent<StarsHandler>().starsAcheived();
         }
     }
 
@@ -55,24 +57,27 @@ public class GameWin : MonoBehaviour
     {
         int currentSceneBuildIndex = SceneManager.GetActiveScene().buildIndex;
 
-        // Increment the reached index to unlock the next level.
-        int reachedIndex = PlayerPrefs.GetInt("ReachedIndex", 0);
-        reachedIndex++;
-
-        // Save the reached index.
-        PlayerPrefs.SetInt("ReachedIndex", reachedIndex);
-
-        // Increment the unlocked level if it's less than the reached index.
-        int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
-        if (unlockedLevel < reachedIndex)
+        // Check if the current scene is a level scene (exclude menus, etc.).
+        if (currentSceneBuildIndex > 0)
         {
-            unlockedLevel++;
-            PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel);
+            // Increment the reached index to unlock the next level.
+            int reachedIndex = PlayerPrefs.GetInt("ReachedIndex", 0);
+            reachedIndex++;
+
+            // Save the reached index.
+            PlayerPrefs.SetInt("ReachedIndex", reachedIndex);
+
+            // Increment the unlocked level if it's less than the reached index.
+            int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+            if (unlockedLevel < reachedIndex)
+            {
+                unlockedLevel++;
+                PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel);
+            }
+
+            // Save PlayerPrefs changes.
+            PlayerPrefs.Save();
         }
-
-        // Save PlayerPrefs changes.
-        PlayerPrefs.Save();
     }
-
 
 }
