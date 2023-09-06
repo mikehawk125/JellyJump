@@ -302,9 +302,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db270eaa39124834ab2a69199bab658b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicSource: {fileID: 6999225880132938323}
+  sfxSource: {fileID: 6999225880824911826}
   music:
   - name: Initial Level Music
     clip: {fileID: 8300000, guid: 6c9a020411b33db4f980142f1dda442a, type: 3}
+  - name: Map Music
+    clip: {fileID: 8300000, guid: 53e560354bcbed3438dffbe5185589cd, type: 3}
+  - name: Main Menu Music
+    clip: {fileID: 8300000, guid: e9b07388dabbcf64dbc528beab8d97ab, type: 3}
   SFX:
   - name: Jump SFX
     clip: {fileID: 8300000, guid: f7f5f0b103b16624da819108f3dc3a57, type: 3}
@@ -316,5 +322,3 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4b6c63b24c5197146af04319d6551db4, type: 3}
   - name: Game Win SFX
     clip: {fileID: 8300000, guid: 80b50210e5f7cb940928c2921390ac2b, type: 3}
-  musicSource: {fileID: 6999225880132938323}
-  sfxSource: {fileID: 6999225880824911826}

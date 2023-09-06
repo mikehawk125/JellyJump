@@ -6,6 +6,7 @@ public class MainMenu : MonoBehaviour
     public void Play()
     {
         // Load the specified level (change the level name as needed).
+        Time.timeScale = 1;
         SceneManager.LoadScene("Level0");
     }
 

@@ -2,33 +2,57 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
-
     public static AudioManager Instance;
+
+    public AudioSource musicSource; // Drag your music source here in the Inspector
+    public AudioSource sfxSource;   // Drag your SFX source here in the Inspector
 
     private void Awake()
     {
-        if (Instance== null)
+        if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
     private void Start()
     {
-        PlayMusic("Initial Level Music");
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "Menu")
+        {
+            StopMusic();
+            PlayMusic("Main Menu Music");
+        }
+        else if (currentScene.name == "Map")
+        {
+            StopMusic();
+            PlayMusic("Map Music");
+        }
+        else
+        {
+            StopMusic();
+            PlayMusic("Initial Level Music");
+        }
+    }
+
+    public void StopMusic()
+    {
+        if (musicSource.isPlaying)
+        {
+            musicSource.Stop();
+        }
     }
 
     public Sound[] music, SFX;
-    public AudioSource musicSource, sfxSource;
-
 
     public void PlayMusic(string name)
     {
@@ -69,12 +93,12 @@ public class AudioManager : MonoBehaviour
         sfxSource.mute = !sfxSource.mute;
     }
 
-    public void MusicVolume (float volume)
+    public void MusicVolume(float volume)
     {
         musicSource.volume = volume;
     }
 
-    public void SFXVolume (float volume)
+    public void SFXVolume(float volume)
     {
         sfxSource.volume = volume;
     }

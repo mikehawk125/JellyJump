@@ -28,6 +28,7 @@ public class LevelSelection : MonoBehaviour
     public void OpenLevel(int levelId)
     {
         string levelName = "Level" + levelId;
+        Time.timeScale = 1;
         SceneManager.LoadScene(levelName);
     }
 }
