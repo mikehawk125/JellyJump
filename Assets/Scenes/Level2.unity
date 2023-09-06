@@ -17549,6 +17549,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1545371770311028749, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -866.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1545371770311028749, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -523.6
+      objectReference: {fileID: 0}
     - target: {fileID: 2502116104146084954, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -17664,6 +17672,22 @@ PrefabInstance:
     - target: {fileID: 2502116105559238724, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameWin, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2561636181324389108, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -860.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2561636181324389108, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -525.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457565220430187587, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -873.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5457565220430187587, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -525.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
@@ -27601,7 +27625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507528801438341938, guid: a542d9487c46cd94287ba582b50d8390, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1507528801438341942, guid: a542d9487c46cd94287ba582b50d8390, type: 3}
       propertyPath: m_Pivot.x

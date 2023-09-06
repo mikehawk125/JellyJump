@@ -30,8 +30,8 @@ public class StarsHandler : MonoBehaviour
         }
         else
         {
-            stars[0].SetActive(false);
-            stars[1].SetActive(false);
+            stars[0].SetActive(true);
+            stars[1].SetActive(true);
             stars[2].SetActive(true);
         }
     }

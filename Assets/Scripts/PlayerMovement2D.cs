@@ -1,28 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement2D : MonoBehaviour
 {
     private Rigidbody2D rb2D;
-    private float moveSpeed;
-    private float jumpForce;
-    private int jumpCount; // Tracks the number of jumps performed
-    private bool isJumping;
-    private bool isGrounded;
+    private float moveSpeed = 10f;
+    private float jumpForce = 3f;
+    private int jumpCount = 0; // Tracks the number of jumps performed
+    private bool isGrounded = true;
     private float moveHorizontal;
     private float moveVertical;
     public static bool canMove = false;
 
     void Start()
     {
-        rb2D = gameObject.GetComponent<Rigidbody2D>();
-
-        moveSpeed = 10f;
-        jumpForce = 3f;
-        isJumping = false;
-        isGrounded = true;
-        jumpCount = 0; // Initialize the jump count to 0
+        rb2D = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -38,7 +29,7 @@ public class PlayerMovement2D : MonoBehaviour
 
     void FixedUpdate()
     {
-        if ((moveHorizontal > 0.1f || moveHorizontal < -0.1f))
+        if (Mathf.Abs(moveHorizontal) > 0.1f)
         {
             rb2D.AddForce(new Vector2(moveHorizontal * moveSpeed, 0f), ForceMode2D.Impulse);
         }
@@ -56,7 +47,7 @@ public class PlayerMovement2D : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
             jumpCount = 0; // Reset the jump count when touching the ground
@@ -65,7 +56,7 @@ public class PlayerMovement2D : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
         }

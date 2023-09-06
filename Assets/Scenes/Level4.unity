@@ -986,6 +986,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: GameWin, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 4708927117930786213, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1610
+      objectReference: {fileID: 0}
+    - target: {fileID: 4708927117930786213, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 176
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
 --- !u!1 &138301144 stripped

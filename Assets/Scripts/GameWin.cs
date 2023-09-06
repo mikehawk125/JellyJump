@@ -67,17 +67,17 @@ public class GameWin : MonoBehaviour
             // Save the reached index.
             PlayerPrefs.SetInt("ReachedIndex", reachedIndex);
 
-            // Increment the unlocked level if it's less than the reached index.
-            int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
-            if (unlockedLevel < reachedIndex)
-            {
-                unlockedLevel++;
-                PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel);
-            }
+            // Determine the maximum level index you want to unlock (e.g., 6 levels).
+            int maxLevelIndex = 6; // Change this value to the maximum level index in your game.
+
+            // Calculate the level to unlock based on the reached index.
+            int unlockedLevel = Mathf.Clamp(reachedIndex, 1, maxLevelIndex);
+
+            // Save the unlocked level.
+            PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel);
 
             // Save PlayerPrefs changes.
             PlayerPrefs.Save();
         }
     }
-
 }
