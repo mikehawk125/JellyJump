@@ -6,8 +6,8 @@ public class EnemyGetCloseMusic : MonoBehaviour
 {
     public Transform playerTransform;
     public AudioSource enemyGetCloseMusic;
-    public float maxVolDistance = 20;
-    public float minVolDistance = 5;
+    public float maxVolDistance = 30;
+    public float minVolDistance = 10;
     private void Start()
     {
         enemyGetCloseMusic.volume = 0;

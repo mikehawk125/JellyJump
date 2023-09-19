@@ -4329,7 +4329,7 @@ GameObject:
   - component: {fileID: 281274604}
   - component: {fileID: 281274603}
   - component: {fileID: 281274605}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: stone_01
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4410,7 +4410,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281274602}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -9118,7 +9118,7 @@ GameObject:
   - component: {fileID: 612442411}
   - component: {fileID: 612442410}
   - component: {fileID: 612442409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: stone_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26847,6 +26847,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6999225880132938323, guid: 7907c101e7ea8bd43b489b088639d9b4, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999225880132938323, guid: 7907c101e7ea8bd43b489b088639d9b4, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999225880963397144, guid: 7907c101e7ea8bd43b489b088639d9b4, type: 3}
+      propertyPath: music.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6999225880963397144, guid: 7907c101e7ea8bd43b489b088639d9b4, type: 3}
+      propertyPath: music.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7516a8ee6a326f04c9ef620800acfc57, type: 3}
+    - target: {fileID: 6999225880963397144, guid: 7907c101e7ea8bd43b489b088639d9b4, type: 3}
+      propertyPath: music.Array.data[3].name
+      value: Level 4 Music
+      objectReference: {fileID: 0}
     - target: {fileID: 6999225880963397145, guid: 7907c101e7ea8bd43b489b088639d9b4, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -36453,7 +36473,7 @@ GameObject:
   - component: {fileID: 2115052212}
   - component: {fileID: 2115052211}
   - component: {fileID: 2115052210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bark (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -37672,8 +37692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!1 &484445034261367023
 GameObject:
   m_ObjectHideFlags: 0
@@ -38079,7 +38099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7799ff176f3b9154d80af5b906ee0685, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 6
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -38194,8 +38214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!1 &912105130263247219
 GameObject:
   m_ObjectHideFlags: 0
@@ -38280,7 +38300,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8708833373089121178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.747, y: 0.759, z: 0}
+  m_LocalPosition: {x: 1.747, y: 0.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38537,8 +38557,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!1 &1028851673812267182
 GameObject:
   m_ObjectHideFlags: 0
@@ -41580,7 +41600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1553973572032117654
 GameObject:
   m_ObjectHideFlags: 0
@@ -41605,7 +41625,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553973572032106886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 40, y: 1.462, z: 0}
+  m_LocalPosition: {x: 28.16, y: 17.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -42988,8 +43008,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!1 &2321418677883238925
 GameObject:
   m_ObjectHideFlags: 0
@@ -45208,8 +45228,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!4 &3416846507889488551
 Transform:
   m_ObjectHideFlags: 0
@@ -48499,7 +48519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &3955516645848480261
 GameObject:
   m_ObjectHideFlags: 0
@@ -48524,7 +48544,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3955516645848469525}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 140, y: 1.462, z: 0}
+  m_LocalPosition: {x: 140, y: 17.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -48741,7 +48761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7799ff176f3b9154d80af5b906ee0685, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 6
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -51693,7 +51713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4671256942705323139}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100, y: 1.462, z: 0}
+  m_LocalPosition: {x: 334.83, y: 13.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -51742,7 +51762,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &4671256942709626977
 Rigidbody2D:
   serializedVersion: 4
@@ -53008,8 +53028,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!4 &5311968665517794037
 Transform:
   m_ObjectHideFlags: 0
@@ -53281,8 +53301,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!1 &5439145417288375785
 GameObject:
   m_ObjectHideFlags: 0
@@ -53713,7 +53733,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5817634329403498752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 200, y: 1.462, z: 0}
+  m_LocalPosition: {x: 259.29, y: 18.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -53762,7 +53782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &5817634329407086528
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -55582,7 +55602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7799ff176f3b9154d80af5b906ee0685, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 6
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -56956,8 +56976,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!4 &7481227944314629167
 Transform:
   m_ObjectHideFlags: 0
@@ -57125,8 +57145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!4 &7668896431730267632
 Transform:
   m_ObjectHideFlags: 0
@@ -57468,8 +57488,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!1 &7841652107865703367
 GameObject:
   m_ObjectHideFlags: 0
@@ -58981,7 +59001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &8185596504900213654
 GameObject:
   m_ObjectHideFlags: 0
@@ -59925,7 +59945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8185596504900213264}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.462, z: 0}
+  m_LocalPosition: {x: -33.62, y: 13.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -61169,8 +61189,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 726823824}
   enemyGetCloseMusic: {fileID: 8185596503561381344}
-  maxVolDistance: 20
-  minVolDistance: 5
+  maxVolDistance: 30
+  minVolDistance: 10
 --- !u!1 &8803511995970395128
 GameObject:
   m_ObjectHideFlags: 0

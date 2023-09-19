@@ -32,6 +32,41 @@ public class AudioManager : MonoBehaviour
             StopMusic();
             PlayMusic("Main Menu Music");
         }
+        else if (currentScene.name == "Level1")
+        {
+            StopMusic();
+            PlayMusic("Level 1 Music");
+        }
+        else if (currentScene.name == "Level2")
+        {
+            StopMusic();
+            PlayMusic("Level 2 Music");
+        }
+        else if (currentScene.name == "Level3")
+        {
+            StopMusic();
+            PlayMusic("Level 3 Music");
+        }
+        else if (currentScene.name == "Level4")
+        {
+            StopMusic();
+            PlayMusic("Level 4 Music");
+        }
+        else if (currentScene.name == "Level5")
+        {
+            StopMusic();
+            PlayMusic("Level 5 Music");
+        }
+        else if (currentScene.name == "Level6")
+        {
+            StopMusic();
+            PlayMusic("Level 6 Music");
+        }
+        else if (currentScene.name == "Level7")
+        {
+            StopMusic();
+            PlayMusic("Level 7 Music");
+        }
         else if (currentScene.name == "Map")
         {
             StopMusic();
