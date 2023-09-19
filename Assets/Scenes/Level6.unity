@@ -1152,7 +1152,7 @@ GameObject:
   - component: {fileID: 63992187}
   m_Layer: 0
   m_Name: coin1 (16)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1258,7 +1258,7 @@ GameObject:
   - component: {fileID: 67869017}
   m_Layer: 0
   m_Name: coin1 (15)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1986,7 +1986,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921291523}
-  m_RootOrder: 52
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &117636120
 SpriteRenderer:
@@ -2295,7 +2295,7 @@ GameObject:
   - component: {fileID: 125213026}
   m_Layer: 0
   m_Name: spikes (9)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3483,7 +3483,7 @@ GameObject:
   - component: {fileID: 274206623}
   m_Layer: 0
   m_Name: coin1 (5)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3667,7 +3667,7 @@ GameObject:
   - component: {fileID: 283903276}
   m_Layer: 0
   m_Name: coin1 (8)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4696,7 +4696,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921291523}
-  m_RootOrder: 64
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &382618524
 SpriteRenderer:
@@ -4768,7 +4768,7 @@ GameObject:
   - component: {fileID: 386078866}
   m_Layer: 0
   m_Name: spikes (1)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5948,7 +5948,7 @@ GameObject:
   - component: {fileID: 483593452}
   m_Layer: 0
   m_Name: coin1 (2)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6630,7 +6630,7 @@ GameObject:
   - component: {fileID: 544679662}
   m_Layer: 0
   m_Name: coin1 (13)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6806,7 +6806,7 @@ GameObject:
   - component: {fileID: 548192292}
   m_Layer: 0
   m_Name: coin1 (12)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7895,7 +7895,7 @@ GameObject:
   - component: {fileID: 658867105}
   m_Layer: 0
   m_Name: spikes
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9040,7 +9040,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921291523}
-  m_RootOrder: 60
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &777044253
 SpriteRenderer:
@@ -9738,7 +9738,7 @@ GameObject:
   - component: {fileID: 820081425}
   m_Layer: 0
   m_Name: spikes (12)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11931,7 +11931,7 @@ GameObject:
   - component: {fileID: 1017973784}
   m_Layer: 0
   m_Name: spikes (11)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12104,7 +12104,7 @@ GameObject:
   - component: {fileID: 1018493836}
   m_Layer: 0
   m_Name: spikes (8)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12486,7 +12486,7 @@ GameObject:
   - component: {fileID: 1093286988}
   m_Layer: 0
   m_Name: coin1 (7)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13247,7 +13247,7 @@ GameObject:
   - component: {fileID: 1240656048}
   m_Layer: 0
   m_Name: coin1
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13445,7 +13445,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921291523}
-  m_RootOrder: 69
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1248523531
 SpriteRenderer:
@@ -13760,7 +13760,7 @@ GameObject:
   - component: {fileID: 1276088111}
   m_Layer: 0
   m_Name: spikes (4)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13933,7 +13933,7 @@ GameObject:
   - component: {fileID: 1277680652}
   m_Layer: 0
   m_Name: coin1 (1)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14443,7 +14443,7 @@ GameObject:
   - component: {fileID: 1331588427}
   m_Layer: 0
   m_Name: coin1 (10)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14580,7 +14580,7 @@ GameObject:
   - component: {fileID: 1339931121}
   m_Layer: 0
   m_Name: coin1 (21)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14909,7 +14909,7 @@ GameObject:
   - component: {fileID: 1362110595}
   m_Layer: 0
   m_Name: coin1 (20)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15015,7 +15015,7 @@ GameObject:
   - component: {fileID: 1363081496}
   m_Layer: 0
   m_Name: spikes (5)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15188,7 +15188,7 @@ GameObject:
   - component: {fileID: 1376561686}
   m_Layer: 0
   m_Name: coin1 (14)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16014,7 +16014,7 @@ GameObject:
   - component: {fileID: 1408511912}
   m_Layer: 0
   m_Name: coin1 (17)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16544,7 +16544,7 @@ GameObject:
   - component: {fileID: 1451717130}
   m_Layer: 0
   m_Name: coin1 (9)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17458,7 +17458,7 @@ GameObject:
   - component: {fileID: 1521506325}
   m_Layer: 0
   m_Name: spikes (10)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17715,7 +17715,7 @@ GameObject:
   - component: {fileID: 1526445282}
   m_Layer: 0
   m_Name: coin1 (19)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18128,7 +18128,7 @@ GameObject:
   - component: {fileID: 1549723992}
   m_Layer: 0
   m_Name: coin1 (22)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18415,7 +18415,7 @@ GameObject:
   - component: {fileID: 1586520422}
   m_Layer: 0
   m_Name: spikes (13)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18705,7 +18705,7 @@ GameObject:
   - component: {fileID: 1617796587}
   m_Layer: 0
   m_Name: coin1 (4)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18895,7 +18895,7 @@ GameObject:
   - component: {fileID: 1622587286}
   m_Layer: 0
   m_Name: spikes (2)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19261,7 +19261,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921291523}
-  m_RootOrder: 71
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1653105763
 SpriteRenderer:
@@ -20111,7 +20111,7 @@ GameObject:
   - component: {fileID: 1756204472}
   m_Layer: 0
   m_Name: spikes (7)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20870,7 +20870,7 @@ GameObject:
   - component: {fileID: 1829894247}
   m_Layer: 0
   m_Name: spikes (3)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21315,7 +21315,7 @@ GameObject:
   - component: {fileID: 1890919876}
   m_Layer: 0
   m_Name: coin1 (3)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21663,7 +21663,7 @@ GameObject:
   - component: {fileID: 1908732594}
   m_Layer: 0
   m_Name: coin1 (18)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22247,27 +22247,27 @@ Transform:
   - {fileID: 262242675}
   - {fileID: 1824941707}
   - {fileID: 371103189}
-  - {fileID: 275962865}
   - {fileID: 117636119}
+  - {fileID: 777044252}
+  - {fileID: 382618523}
+  - {fileID: 1248523530}
+  - {fileID: 275962865}
   - {fileID: 1175013678}
   - {fileID: 1030385329}
   - {fileID: 1700120087}
   - {fileID: 931962138}
+  - {fileID: 1653105762}
   - {fileID: 1062766616}
   - {fileID: 423584878}
   - {fileID: 1566048848}
-  - {fileID: 777044252}
   - {fileID: 1251137001}
   - {fileID: 1123689502}
   - {fileID: 293965265}
-  - {fileID: 382618523}
   - {fileID: 1808870276}
   - {fileID: 350164582}
   - {fileID: 1452791002}
   - {fileID: 567937903}
-  - {fileID: 1248523530}
   - {fileID: 1982454640}
-  - {fileID: 1653105762}
   - {fileID: 83364663}
   - {fileID: 1503027924}
   - {fileID: 2016933462}
@@ -22656,7 +22656,7 @@ GameObject:
   - component: {fileID: 2025141315}
   m_Layer: 0
   m_Name: coin1 (11)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23052,7 +23052,7 @@ GameObject:
   - component: {fileID: 2099389701}
   m_Layer: 0
   m_Name: coin1 (6)
-  m_TagString: ColectableItems
+  m_TagString: Items
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23331,7 +23331,7 @@ GameObject:
   - component: {fileID: 2132591365}
   m_Layer: 0
   m_Name: spikes (6)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -11702,7 +11702,7 @@ GameObject:
   - component: {fileID: 1175358229}
   m_Layer: 6
   m_Name: wall_bottom
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13045,7 +13045,7 @@ GameObject:
   - component: {fileID: 1291109397}
   m_Layer: 6
   m_Name: wall_bottom (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14452,7 +14452,7 @@ GameObject:
   - component: {fileID: 1479029945}
   m_Layer: 6
   m_Name: wall_bottom (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

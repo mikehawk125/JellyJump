@@ -6712,7 +6712,7 @@ GameObject:
   - component: {fileID: 584076838}
   m_Layer: 6
   m_Name: river (1)
-  m_TagString: Untagged
+  m_TagString: Chocolate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
