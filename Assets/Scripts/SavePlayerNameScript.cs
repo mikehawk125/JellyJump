@@ -8,11 +8,12 @@ public class SavePlayerNameScript : MonoBehaviour
 {
     public string playerName;
     public GameObject inputField;
+    public TMP_InputField input;
 
 
-    public void StoreName()
+    public void StoreName(string input)
     {
-        // playerName = inputField.text;
-        // Debug.Log(playerName);
+        PlayerPrefs.SetString("PlayerName", input);
+        PlayerPrefs.Save();
     }
 }

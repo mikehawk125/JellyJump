@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI;
+using TMPro;
+
 public class GameControlScript : MonoBehaviour
 {
     public GameObject heart1, heart2, heart3, gameOver;
+    public TextMeshProUGUI playerName;
     public static int health;
     bool isDead = false;
     bool hasPlayedLoseLifeSound = false;
@@ -17,6 +21,11 @@ public class GameControlScript : MonoBehaviour
         heart2.SetActive(true);
         heart3.SetActive(true);
         gameOver.SetActive(false);
+        var drek = PlayerPrefs.GetString("PlayerName");
+        Debug.Log(drek);
+        playerName.text = drek;
+
+
     }
 
     void Update()
