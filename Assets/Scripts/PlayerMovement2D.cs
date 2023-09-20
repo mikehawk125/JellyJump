@@ -1,8 +1,9 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement2D : MonoBehaviour
 {
     private Rigidbody2D rb2D;
+    public DialogueManager dialogueManager;
     private float moveSpeed = 10f;
     private float jumpForce = 3f;
     private int jumpCount = 0; // Tracks the number of jumps performed
@@ -10,22 +11,42 @@ public class PlayerMovement2D : MonoBehaviour
     private float moveHorizontal;
     private float moveVertical;
     public static bool canMove = false;
+    public bool isDialogueActive = false; // Dodajte ovu varijablu da pratite je li dijalog aktivan
 
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
+
+        // Provjerite postoji li DialogueManager na trenutnom levelu
+        dialogueManager = FindObjectOfType<DialogueManager>();
+
+        if (dialogueManager != null)
+        {
+            canMove = false;
+            isDialogueActive = true;
+        }
+        else
+        {
+            // Ako nema DialogueManagera, omogućite kretanje
+            canMove = true;
+            isDialogueActive = false;
+        }
     }
 
     void Update()
     {
-        moveHorizontal = Input.GetAxisRaw("Horizontal");
-        moveVertical = Input.GetAxisRaw("Vertical");
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!isDialogueActive)
         {
-            Jump();
+            moveHorizontal = Input.GetAxisRaw("Horizontal");
+            moveVertical = Input.GetAxisRaw("Vertical");
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Jump();
+            }
         }
     }
+
 
     void FixedUpdate()
     {

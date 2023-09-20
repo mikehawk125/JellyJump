@@ -2263,7 +2263,9 @@ MonoBehaviour:
   nameText: {fileID: 1735397383}
   dialogueText: {fileID: 1554277469}
   player: {fileID: 1715180889}
+  playerMovement: {fileID: 1715180889}
   animator: {fileID: 2082799625}
+  isDialogueActive: 1
 --- !u!4 &307466829
 Transform:
   m_ObjectHideFlags: 0
@@ -30464,6 +30466,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 2021110150}
+    - target: {fileID: 7444737017332729621, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 307466828}
     - target: {fileID: 7444737017333084126, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
       propertyPath: m_RootOrder
       value: 7
