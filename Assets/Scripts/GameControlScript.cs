@@ -21,11 +21,11 @@ public class GameControlScript : MonoBehaviour
         heart2.SetActive(true);
         heart3.SetActive(true);
         gameOver.SetActive(false);
-        var drek = PlayerPrefs.GetString("PlayerName");
-        Debug.Log(drek);
-        playerName.text = drek;
-
-
+        var name = PlayerPrefs.GetString("PlayerName");
+        if (!string.IsNullOrEmpty(name))
+        {
+            playerName.text = name;
+        }
     }
 
     void Update()
