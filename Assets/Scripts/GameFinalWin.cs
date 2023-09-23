@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameWin : MonoBehaviour
+public class GameFinalWin : MonoBehaviour
 {
     public GameObject winMenu;
     public GameObject scoreHealthCanvas; // Reference to the score_health canvas
@@ -19,8 +19,7 @@ public class GameWin : MonoBehaviour
 
     public void Continue()
     {
-        SceneManager.LoadScene("Map");
-        UnlockNewLevel();
+        SceneManager.LoadScene("Storyboard/Story kraj/Kraj");
     }
 
     public void QuitGame()
@@ -29,9 +28,9 @@ public class GameWin : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    { 
+    {
         if (other.gameObject.tag == "Player")
-        {
+        { 
             Time.timeScale = 0f; // Stop animations and updates
 
             StopAllAudio(); // Stop all audio sources
@@ -48,34 +47,6 @@ public class GameWin : MonoBehaviour
         foreach (AudioSource audioSource in allAudioSources)
         {
             audioSource.Stop(); // Stop each audio source
-        }
-    }
-
-    void UnlockNewLevel()
-    {
-        int currentSceneBuildIndex = SceneManager.GetActiveScene().buildIndex;
-
-        // Check if the current scene is a level scene (exclude menus, etc.).
-        if (currentSceneBuildIndex > 0)
-        {
-            // Increment the reached index to unlock the next level.
-            int reachedIndex = PlayerPrefs.GetInt("ReachedIndex", 0);
-            reachedIndex++;
-
-            // Save the reached index.
-            PlayerPrefs.SetInt("ReachedIndex", reachedIndex);
-
-            // Determine the maximum level index you want to unlock (e.g., 6 levels).
-            int maxLevelIndex = 6; // Change this value to the maximum level index in your game.
-
-            // Calculate the level to unlock based on the reached index.
-            int unlockedLevel = Mathf.Clamp(reachedIndex, 1, maxLevelIndex);
-
-            // Save the unlocked level.
-            PlayerPrefs.SetInt("UnlockedLevel", unlockedLevel);
-
-            // Save PlayerPrefs changes.
-            PlayerPrefs.Save();
         }
     }
 }

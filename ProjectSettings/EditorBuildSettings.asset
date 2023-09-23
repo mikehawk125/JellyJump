@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: "Assets/Scenes/Storyboard/Po\u010Detak/Po\u010Detak.unity"
+    guid: d34c39ca452b76d4aacccfb326bd4dc2
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 35531d350298a7940a0edb9ce2c6b8e0
   - enabled: 1
@@ -35,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level7.unity
     guid: b9ca83e8b432f924980cf000d1d19a82
+  - enabled: 1
+    path: Assets/Scenes/Storyboard/Story kraj/Kraj.unity
+    guid: e85805dfe5aa9d04fb93720912803866
   m_configObjects: {}
