@@ -34299,6 +34299,14 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 617440234}
+    - target: {fileID: 7444737017332729623, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
+      propertyPath: m_Mass
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444737017332729623, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
+      propertyPath: m_GravityScale
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7444737017333084126, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
       propertyPath: m_RootOrder
       value: 8
