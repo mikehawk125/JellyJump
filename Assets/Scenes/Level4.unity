@@ -19693,6 +19693,14 @@ PrefabInstance:
       propertyPath: scoreHealthCanvas
       value: 
       objectReference: {fileID: 512329764}
+    - target: {fileID: 7781616892351909551, guid: a8ada9f1129ec534ba6cd1d1437f814f, type: 3}
+      propertyPath: winMenu
+      value: 
+      objectReference: {fileID: 699752204}
+    - target: {fileID: 7781616892351909551, guid: a8ada9f1129ec534ba6cd1d1437f814f, type: 3}
+      propertyPath: scoreHealthCanvas
+      value: 
+      objectReference: {fileID: 512329764}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8ada9f1129ec534ba6cd1d1437f814f, type: 3}
 --- !u!114 &1189624532 stripped
@@ -37446,7 +37454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1262693027256520804}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Lower_eyelid_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38331,7 +38339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3372027266898817227}
   - component: {fileID: 7047179369494489214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eyelid_top_Orange_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38348,7 +38356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7185807524084758183}
   - component: {fileID: 1395037873391347180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: snore_Z
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40701,7 +40709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1590872927339699261}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Mouth_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41174,7 +41182,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1411562528653912305}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Closed_eyelid_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41483,7 +41491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7378662402582889865}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Check
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -42604,7 +42612,7 @@ GameObject:
   - component: {fileID: 6036993035155136553}
   - component: {fileID: 2741029889471129458}
   - component: {fileID: 2319583513215834480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy Green
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -42620,7 +42628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939159549631193510}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
@@ -43023,7 +43031,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8764845644036619032}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: upper_eyelid_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43251,7 +43259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4589090781555193415}
   - component: {fileID: 8256564401687593610}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43283,7 +43291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5192980539451804037}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: closed_eyelid_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43546,7 +43554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8152221909783606377}
   - component: {fileID: 4270269422990052910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mouth_O_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43690,7 +43698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2509723334270427669}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Upper_eyelid_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43707,7 +43715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7047954990941704796}
   - component: {fileID: 179346372980526043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eyelid_bottom_Orange_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44294,7 +44302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7764252871391335800}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: body_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45024,7 +45032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7177341787816862464}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: fx_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45464,7 +45472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3195725517815209220}
   - component: {fileID: 3655684604663242711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mouth_open_smile_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46972,7 +46980,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712917783}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Hat_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46989,7 +46997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712942803}
   - component: {fileID: 3486007968692114363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eyelid_top_Orange_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47005,7 +47013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712994427}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Shadow_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47021,7 +47029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712912103}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: shadow_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47037,7 +47045,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712910807}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Body_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47053,7 +47061,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712912837}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Upper_eyelid_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47069,7 +47077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712950213}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: body_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47086,7 +47094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712980171}
   - component: {fileID: 3486007968692191213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: body_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47103,7 +47111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712973991}
   - component: {fileID: 3486007968692119077}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: snore_Z
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47119,7 +47127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712955617}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: hat_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47135,7 +47143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712959707}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Closed_eyelid_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47152,7 +47160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712958413}
   - component: {fileID: 3486007968692120391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mouth_O_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47168,7 +47176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968713003683}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: FX_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47185,7 +47193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712923363}
   - component: {fileID: 3486007968692160835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pupil_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47201,7 +47209,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712952337}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Eye_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47218,7 +47226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712984339}
   - component: {fileID: 3486007968692207541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mouth_open_smile_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47234,7 +47242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712912955}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: eye_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47251,7 +47259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712974593}
   - component: {fileID: 3486007968692179787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mouth_closed_smile_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47267,7 +47275,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968713006515}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: lower_eyelid_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47283,7 +47291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712922349}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: fx_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47299,7 +47307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712951503}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: upper_eyelid_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47315,7 +47323,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712956939}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Lower_eyelid_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47331,7 +47339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712943225}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: closed_eyelid_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47347,7 +47355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968713004291}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Spectacles_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47364,7 +47372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712986209}
   - component: {fileID: 3486007968692172219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shadow_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47380,7 +47388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712938865}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: character_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47397,7 +47405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712912333}
   - component: {fileID: 3486007968692120205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47413,7 +47421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712942507}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: spectacles_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47430,7 +47438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712997693}
   - component: {fileID: 3486007968692206639}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eyelid_bottom_Orange_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47447,7 +47455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712945059}
   - component: {fileID: 3486007968692193493}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eye_closed_Orange_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47463,7 +47471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712930461}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Mouth_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47480,7 +47488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968713006745}
   - component: {fileID: 3486007968692148293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fx_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47497,7 +47505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712947425}
   - component: {fileID: 3486007968692138551}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: hat_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47513,7 +47521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486007968712936423}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: mouth_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47530,7 +47538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712947427}
   - component: {fileID: 3486007968692169055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: glasses_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47547,7 +47555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3486007968712940021}
   - component: {fileID: 3486007968692186289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mouth_evil_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47681,7 +47689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1394260722669453430}
   - component: {fileID: 965379051098818256}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: hat_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48001,7 +48009,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6098456263914771124}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Body_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48569,7 +48577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4625689989628837853}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Check
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -51280,7 +51288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7621620074358669905}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: eye_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51362,7 +51370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9175711242315196674}
   - component: {fileID: 8044908101355717084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mouth_closed_smile_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51463,7 +51471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4377148659607870450}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
@@ -51487,7 +51495,7 @@ GameObject:
   - component: {fileID: 8471328055510309501}
   - component: {fileID: 26351980942482726}
   - component: {fileID: 461432318557872932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy Blue Rhombus
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -52117,7 +52125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 983879262765593719}
   - component: {fileID: 1791635708963244630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: eye_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52246,7 +52254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6845002179019357787}
   - component: {fileID: 6637534399822182386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pupil_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52761,7 +52769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5340736112231100761}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: shadow_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52910,7 +52918,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2078905106973100366}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Shadow_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54474,7 +54482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5647945113292120874}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: character_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54770,7 +54778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2687084134962367414}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Hat_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54901,7 +54909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2966466294979537913}
   - component: {fileID: 2758723012961300336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fx_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56141,7 +56149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2436811020476411699}
   - component: {fileID: 3463353106310530739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shadow_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56173,7 +56181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2016729273315143906}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: lower_eyelid_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56486,7 +56494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2439030555399471795}
   - component: {fileID: 559120492987370210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: glasses_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57295,7 +57303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7379286814677556665}
   - component: {fileID: 2921168831846263944}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: mouth_evil_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57733,7 +57741,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4287388762270511396}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: mouth_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60344,7 +60352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7021820055368975049}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Spectacles_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60543,7 +60551,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 917022018875943087}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: hat_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60888,7 +60896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5510501450081772812}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: spectacles_anim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61529,7 +61537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8212572184656116507}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: FX_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61761,7 +61769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8840803730397782966}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: Eye_rig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61893,7 +61901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6962327841849652192}
   - component: {fileID: 8255767053833842078}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eye_closed_Orange_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

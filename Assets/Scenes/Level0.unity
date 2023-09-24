@@ -2794,9 +2794,9 @@ MonoBehaviour:
       i druge dobre likove koji \u0107e ti pomo\u0107i u tvojoj misiji a duhovni
       vodi\u010D \u0107e ti biti podr\u0161ka u te\u0161kim situacijama."
     - "Kako bude\u0161 napredovao kroz igru, suo\u010Dit \u0107e\u0161 se s izazovima
-      i preprekama sve ve\u0107eg intenziteta. Svaka razina donosi nove izazove,
-      neprijatelje i zagonetke koje treba\u0161 rije\u0161iti kako bi stigao do krajnjeg
-      cilja - spasiti \u017Eele svijet od zle \u010Darobnice i vratiti dragulje njihovim
+      i preprekama sve ve\u0107eg intenziteta. Svaka razina donosi nove izazove i
+      neprijatelje koje treba\u0161 pro\u0107i kako bi stigao do krajnjeg cilja -
+      spasiti \u017Eele svijet od zle \u010Darobnice i vratiti dragulje njihovim
       pravim vlasnicima. Kroz svoju avanturu, razvijat \u0107e\u0161 svoje sposobnosti
       i nau\u010Diti nove vje\u0161tine koje \u0107e ti pomo\u0107i u daljnjem napredovanju."
     - "Kako se igra bude razvijala, tako \u0107e se i pri\u010Da nastavljati razvijati
@@ -5120,8 +5120,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -852198227
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2774f2f53ee78e942b6c7a44ccfeed0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9469,8 +9469,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -852198227
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2774f2f53ee78e942b6c7a44ccfeed0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9910,7 +9910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2502116104146084958, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2502116104858418765, guid: 55e07c54fb02d4a41b6bf9bd9ec582a3, type: 3}
       propertyPath: m_Layer

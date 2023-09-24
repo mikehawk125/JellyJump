@@ -19,7 +19,8 @@ public class GameFinalWin : MonoBehaviour
 
     public void Continue()
     {
-        SceneManager.LoadScene("Storyboard/Story kraj/Kraj");
+        SceneManager.LoadScene("Kraj");
+        Time.timeScale = 1f;
     }
 
     public void QuitGame()
