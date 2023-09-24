@@ -12866,6 +12866,10 @@ PrefabInstance:
       propertyPath: gameOverMenu
       value: 
       objectReference: {fileID: 136657543}
+    - target: {fileID: 2820534715489850766, guid: a8ada9f1129ec534ba6cd1d1437f814f, type: 3}
+      propertyPath: scoreHealthCanvas
+      value: 
+      objectReference: {fileID: 1463913333}
     - target: {fileID: 7781616892351909551, guid: a8ada9f1129ec534ba6cd1d1437f814f, type: 3}
       propertyPath: scoreHealthCanvas
       value: 
@@ -15835,6 +15839,11 @@ PrefabInstance:
       objectReference: {fileID: 1463913333}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52b6f9d720f74774f85871f92233aec3, type: 3}
+--- !u!1 &1459015802 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7444737017332635214, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
+  m_PrefabInstance: {fileID: 1726624675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1463913333 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5154633098205656164, guid: 706480b8abbe0444b86d01a334a86f05, type: 3}
@@ -18704,7 +18713,11 @@ PrefabInstance:
       objectReference: {fileID: 1022475536}
     - target: {fileID: 7444737017332729623, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
       propertyPath: m_Mass
-      value: 0.5
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444737017332729623, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
+      propertyPath: m_GravityScale
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7444737017333084126, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
       propertyPath: m_RootOrder
@@ -20894,12 +20907,27 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7444737017332729621, guid: 74a1901816c686e4b92f597cf1b08854, type: 3}
   m_PrefabInstance: {fileID: 1726624675}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1459015802}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddcb7506445bf4a468fbf29ebdd31b30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1938455960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459015802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25ccf644a741a4498c01d97c2891279, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDistance: 40
+  minIntensity: 0.7
+  maxIntensity: 1
 --- !u!1 &1951411615
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,8 +38,6 @@ public class GameWin : MonoBehaviour
             AudioManager.Instance.PlaySFX("Game Win SFX");
             scoreHealthCanvas.SetActive(false);
             winMenu.SetActive(true);
-
-            GetComponent<StarsHandler>().starsAcheived();
         }
     }
 
